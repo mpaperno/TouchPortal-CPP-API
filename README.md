@@ -1,4 +1,4 @@
-# Network Client for Touch Portal Plugin API
+# Touch Portal Plugin API Client for C++ and Qt
 
 [![Made for Touch Portal](https://img.shields.io/static/v1?style=flat&labelColor=5884b3&color=black&label=made%20for&message=Touch%20Portal&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAetJREFUeNp0UruqWlEQXUePb1HERi18gShYWVqJYGeXgF+Qzh9IGh8QiOmECIYkpRY21pZWFnZaqWBhUG4KjWih4msys8FLbrhZMOfsx6w1e9beWjAYBOMtx0eOGBEZzuczrtcreAyTyQSz2QxN04j3f3J84vim8+cNR4s3rKfTSUQQi8UQjUYlGYvFAtPpVIQ0u90eZrGvnHLXuOKcB1GpkkqlUCqVEA6HsVqt4HA4EAgEMJvNUC6XMRwOwWTRfhIi3e93WK1W1Go1dbTBYIDj8YhOp4NIJIJGo4FEIoF8Po/JZAKLxQIIUSIUChGrEy9Sr9cjQTKZJJvNRtlsVs3r9Tq53W6Vb+Cy0rQyQtd1OJ1O9b/dbpCTyHoul1O9z+dzGI1Gla7jFUiyGBWPx9FsNpHJZNBqtdDtdlXfAv3vZLmCB6SiJIlJhUIB/X7/cS0viXI8n8+nrBcRIblcLlSrVez3e4jrD6LsK3O8Xi8Vi0ViJ4nVid2kB3a7HY3HY2q325ROp8nv94s5d0XkSsR90OFwoOVySaPRiF6DiHs8nmdXn+QInIxKpaJclWe4Xq9fxGazAQvDYBAKfssDeMeD7zITc1gR/4M8isvlIn2+F3N+cIjMB76j4Ha7fb7bf8H7v5j0hYef/wgwAKl+FUPYXaLjAAAAAElFTkSuQmCC)](https://www.touch-portal.com)
 [![Qt](https://img.shields.io/static/v1?style=flat&labelColor=white&color=41CD52&label=&message=Qt%20v5%20%26%20v6&logo=qt)](https://qt.io)
@@ -12,8 +12,8 @@
 -------------
 ## Features
 - Handles bi-directional network transfer and JSON encode/decode of _Touch Portal_ messages.
-- Uses Qt signals to deliver messages from _Touch Portal_ and inform of connection status changes.
-- Send messages to _Touch Portal_ using Qt slots and/or direct client method invocations.
+- Uses _Qt_ signals to deliver messages from _Touch Portal_ and inform of connection status changes.
+- Send messages to _Touch Portal_ using _Qt_ slots and/or direct client method invocations.
 - Optimized for maximum throughput, no unnecessary data processing is performed (eg. assumes plugin author validates their own data before sending).
 - Includes some optional convenience methods for working with incoming action/connector data (eg. convert JSON array of objects to a `QMap` with the data IDs as keys).
 - Asynchronous socket operations, fully reentrant methods, and can be run in a separate thread if needed (with queued signals/slots communication).
@@ -41,7 +41,7 @@ In either case, just `#include "TPClientQt.h"` somewhere in your plugin code and
 -------------
 ## Documentation
 
-API documentation generated from source comments is published at: https://mpaperno.github.io/TPClientQt/
+API documentation generated from source comments is published at: https://mpaperno.github.io/TouchPortal-CPP-API/annotated.html
 
 -------------
 ## Example
@@ -61,7 +61,7 @@ Documentation generated with [Doxygen](https://www.doxygen.nl/) and styled with 
 -------------
 ## Copyright, License, and Disclaimer
 
-TPClientQt Project <br />
+TouchPortal-CPP-API Project <br />
 COPYRIGHT: Maxim Paperno; All Rights Reserved.
 
 Dual licensed under the terms of either the GNU General Public License (**GPL**)
