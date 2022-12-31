@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "TPClientQt", "index.html", [
-    [ "Network Client for Touch Portal Plugin API", "index.html", [
+  [ "TouchPortal-CPP-API", "index.html", [
+    [ "Touch Portal Plugin API Client for C++ and Qt", "index.html", [
       [ "Features", "index.html#autotoc_md2", null ],
       [ "Requirements", "index.html#autotoc_md4", null ],
       [ "Using", "index.html#autotoc_md6", null ],
